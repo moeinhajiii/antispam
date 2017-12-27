@@ -87,7 +87,8 @@ local name_log = user_print_name(msg.from)
 
 	if matches[1] == 'help' and msg.to.type == 'user' or matches[1] == 'pmhelp' and is_admin1(msg) and msg.to.type ~= 'user' then
       	savelog(msg.to.id, name_log.." ["..msg.from.id.."] used pm help")
-		text = "Welcome to Robot!\n\nThis is a bot run by @adminuser for managing the official group @botuser on Telegram\n\nCheck out our channel @channel\n\nAlso join To Group Support\n\nGroupLink for knowing more!"
+		text = "Welcome to Robot!\n\nThis is a bot run by @moein_hajiiiii
+ for managing the official group @antispam on Telegram\n\nCheck out our channel @Descriptionantispam\n\nAlso join To Group Support\n\nhttps://t.me/joinchat/D1SD9hC2EeT--TtlA5oOww for knowing more!"
      	return text
     end
 
